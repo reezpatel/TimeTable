@@ -1,0 +1,40 @@
+<resources xmlns:android="http://schemas.android.com/tools">
+    <string name="app_name">Time Table</string>
+    <string name="title_activity_main">Time Table</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="splashScreen_welcomeMsg">Time Table</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="author">ReezX</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="oops">OOPS !!!</string>
+    <string name="not_logged_in_text">Looks Like Yor Are Not Logged In</string>
+    <string name="profile_picture">Profile Picture</string>
+    <string name="credits">CREDITS</string>
+    <string name="subject_code">Subject Code</string>
+    <string name="subject_name">Subject Name</string>
+    <string name="faculty_name">Faculty Name</string>
+    <string name="cancel">Cancel</string>
+    <string name="credit">Credits</string>
+    <string name="class_venue">Class Venue</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="save">SAVE</string>
+    <string name="OK">OK</string>
+
+    <string-array name="credits" android:name="Credits">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>]
+    </string-array>
+
+
+    <item name="visible" type="id" />
+    <item name="masked" type="id" />
+</resources>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:padding="20dp"
+    android:layout_height="wrap_content">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/TextViewSubjectDialogTitle"
+        android:textSize="25sp"
+        android:layout_marginBottom="8dp"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content" />
+
+    <View style="@style/Divider"
+        android:layout_marginBottom="25dp" />
+
+    <LinearLayout
+        android:baselineAligned="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/LayoutSubjectDialogSubjectCode"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="wrap_content">
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/TextViewSubjectDialogSubjectCode"
+                android:layout_width="match_parent"
+                android:hint="@string/subject_code"
+                android:layout_height="match_parent" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_gravity="top"
+            android:layout_weight="3"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_gravity="center|top"
+                android:layout_width="wrap_content"
+                android:text="@string/credit"
+                android:textSize="10sp"
+                android:textColor="@color/colorAccent"
+                style="@style/Widget.Design.TextInputLayout"
+                android:layout_height="wrap_content" />
+
+            <Spinner
+                android:layout_gravity="end"
+                android:layout_width="80dp"
+                android:spinnerMode="dropdown"
+                android:id="@+id/SpinnerSubjectDialoge"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/LayoutSubjectDialogSubjectName"
+        android:layout_width="match_parent"
+        android:paddingBottom="8dp"
+        android:layout_height="wrap_content">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/TextViewSubjectDialogSubjectName"
+            android:layout_width="match_parent"
+            android:hint="@string/subject_name"
+            android:layout_height="match_parent" />
+
+    </android.support.design.widget.TextInputLayout>
+
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/LayoutSubjectDialogFacultyName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/TextViewSubjectDialogFacultyName"
+            android:layout_width="match_parent"
+            android:hint="@string/faculty_name"
+            android:layout_height="match_parent" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+    android:id="@+id/LayoutSubjectDialogClassVenue"
+    android:layout_width="match_parent"
+    android:layout_marginBottom="25dp"
+    android:layout_height="wrap_content">
+
+    <android.support.design.widget.TextInputEditText
+        android:id="@+id/TextViewSubjectDialogClassVenue"
+        android:layout_width="match_parent"
+        android:hint="@string/class_venue"
+        android:layout_height="match_parent" />
+
+</android.support.design.widget.TextInputLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="end"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="wrap_content"
+            style="@style/Base.Widget.AppCompat.Button.Borderless.Colored"
+            android:id="@+id/ButtonSubjectDialogPositive"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:id="@+id/ButtonSubjectDialogNegative"
+            android:text="@string/cancel"
+            style="@style/Base.Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+</LinearLayout>

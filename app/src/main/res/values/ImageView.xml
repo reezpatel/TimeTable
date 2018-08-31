@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ImageView_Center">
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:scaleX">2</item>
+        <item name="android:scaleY">2</item>
+        <item name="android:adjustViewBounds">true</item>
+    </style>
+</resources>
